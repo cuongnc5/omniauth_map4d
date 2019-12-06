@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["cuongnc@iotlink.com"]
   gem.description   = %q{Official OmniAuth strategy for Map4d.}
   gem.summary       = %q{Official OmniAuth strategy for Map4d.}
-  gem.homepage      = "https://github.com/cuongnc5/omniauth-map4d"
+  gem.homepage      = "https://github.com/cuongnc5/omniauth_map4d"
   gem.license       = "MIT"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
