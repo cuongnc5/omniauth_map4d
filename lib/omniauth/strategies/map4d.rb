@@ -6,7 +6,8 @@ module OmniAuth
       option :client_options, {
         :site => 'http://account.map4d.vn',
         :authorize_url => 'http://account.map4d.vn/oauth/authorize',
-        :token_url => 'http://account.map4d.vn/oauth/access_token'
+        :token_url => 'http://account.map4d.vn/oauth/access_token',
+        :ssl => {:ca_path => "/etc/ssl/certs"}
       }
 
       def request_phase
