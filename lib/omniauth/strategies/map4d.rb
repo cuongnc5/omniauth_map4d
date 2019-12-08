@@ -4,9 +4,9 @@ module OmniAuth
   module Strategies
     class Map4d < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://account.map4d.vn',
-        :authorize_url => 'https://account.map4d.vn/oauth/authorize',
-        :token_url => 'https://account.map4d.vn/oauth/access_token'
+        :site => 'http://account.map4d.vn',
+        :authorize_url => 'http://account.map4d.vn/oauth/authorize',
+        :token_url => 'http://account.map4d.vn/oauth/access_token'
       }
 
       def request_phase
